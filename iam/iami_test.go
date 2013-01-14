@@ -2,8 +2,8 @@ package iam_test
 
 import (
 	"flag"
-	"launchpad.net/goamz/aws"
-	"launchpad.net/goamz/iam"
+	"github.com/robfig/goamz/aws"
+	"github.com/robfig/goamz/iam"
 	. "launchpad.net/gocheck"
 )
 

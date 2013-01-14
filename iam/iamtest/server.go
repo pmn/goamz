@@ -6,7 +6,7 @@ package iamtest
 import (
 	"encoding/xml"
 	"fmt"
-	"launchpad.net/goamz/iam"
+	"github.com/robfig/goamz/iam"
 	"net"
 	"net/http"
 	"sync"

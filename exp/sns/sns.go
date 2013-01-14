@@ -27,7 +27,7 @@ package sns
 import (
 	"encoding/xml"
 	"errors"
-	"launchpad.net/goamz/aws"
+	"github.com/robfig/goamz/aws"
 	"net/http"
 	"net/url"
 	"strconv"

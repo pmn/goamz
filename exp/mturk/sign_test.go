@@ -1,8 +1,8 @@
 package mturk_test
 
 import (
-	"launchpad.net/goamz/aws"
-	"launchpad.net/goamz/exp/mturk"
+	"github.com/robfig/goamz/aws"
+	"github.com/robfig/goamz/exp/mturk"
 	. "launchpad.net/gocheck"
 )
 
