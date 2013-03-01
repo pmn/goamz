@@ -3,7 +3,7 @@ package s3_test
 import (
 	"flag"
 	"fmt"
-	"github.com/robfig/goamz/aws"
+	"github.com/pmn/goamz/aws"
 	. "launchpad.net/gocheck"
 	"net/http"
 	"net/url"

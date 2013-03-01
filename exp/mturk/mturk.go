@@ -17,7 +17,7 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"github.com/robfig/goamz/aws"
+	"github.com/pmn/goamz/aws"
 	"net/http"
 	//"net/http/httputil"
 	"net/url"

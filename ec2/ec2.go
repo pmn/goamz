@@ -15,7 +15,7 @@ import (
 	"encoding/hex"
 	"encoding/xml"
 	"fmt"
-	"github.com/robfig/goamz/aws"
+	"github.com/pmn/goamz/aws"
 	"log"
 	"net/http"
 	"net/http/httputil"
@@ -425,15 +425,15 @@ type ImagesResp struct {
 //
 // See http://goo.gl/wnDBf for more details.
 type BlockDeviceMapping struct {
-	DeviceName          string      `xml:"deviceName"`
-	VirtualName         string      `xml:"virtualName"`
-	SnapshotId          string      `xml:"ebs>snapshotId"`
-	VolumeType          string      `xml:"ebs>volumeType"`
-	VolumeSize          int64       `xml:"ebs>volumeSize"`
-	DeleteOnTermination bool        `xml:"ebs>deleteOnTermination"`
+	DeviceName          string `xml:"deviceName"`
+	VirtualName         string `xml:"virtualName"`
+	SnapshotId          string `xml:"ebs>snapshotId"`
+	VolumeType          string `xml:"ebs>volumeType"`
+	VolumeSize          int64  `xml:"ebs>volumeSize"`
+	DeleteOnTermination bool   `xml:"ebs>deleteOnTermination"`
 
 	// The number of I/O operations per second (IOPS) that the volume supports.
-	IOPS                int64       `xml:"ebs>iops"`
+	IOPS int64 `xml:"ebs>iops"`
 }
 
 // Image represents details about an image.

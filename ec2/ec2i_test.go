@@ -4,8 +4,8 @@ import (
 	"crypto/rand"
 	"flag"
 	"fmt"
-	"github.com/robfig/goamz/aws"
-	"github.com/robfig/goamz/ec2"
+	"github.com/pmn/goamz/aws"
+	"github.com/pmn/goamz/ec2"
 	. "launchpad.net/gocheck"
 )
 

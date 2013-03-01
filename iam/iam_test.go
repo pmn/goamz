@@ -1,8 +1,8 @@
 package iam_test
 
 import (
-	"github.com/robfig/goamz/aws"
-	"github.com/robfig/goamz/iam"
+	"github.com/pmn/goamz/aws"
+	"github.com/pmn/goamz/iam"
 	. "launchpad.net/gocheck"
 )
 
